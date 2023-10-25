@@ -22,13 +22,11 @@ public class Main {
         //System.out.println(person1.getName());
 
 
-
-
         Logger logger=Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");
 
         logger.info(person0.getHeight() + "");
         System.out.println(person1.getHeight());
         System.out.println(person2.getHeight());
-    }
+    } // brb
 }
